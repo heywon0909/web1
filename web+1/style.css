@@ -1,0 +1,132 @@
+body{
+     margin: 0;
+     text-align: center;}
+ul{
+  margin:0;
+}
+h1{
+      font-size:4em;
+      margin: 10px;
+}
+#name h1{
+          text-align: center;
+          font-size:4em;
+          margin: 10px;
+    }
+ li{
+     display: inline;
+  }
+  #header li{
+         display: inline;
+      }
+      #header a{
+        font-size:1.5em;
+        padding: 0px  50px  0px 25px;
+      }
+      #page li{
+        padding:4px;
+        display:block;
+      }
+      #name h1{
+          text-align: center;
+          font-size:4em;
+          margin: 10px;
+    }
+    ol{
+        border-right:1px solid gray;
+        width:227px;
+        margin:0;
+        Padding:22px 0px 0px 75px;
+      }
+  #header a{
+    font-size:1.5em;
+    padding: 0px  50px  0px 25px;
+  }
+  @media(max-width:950px)
+  {
+    div{
+      display:none;
+    }
+  }
+a{
+  color: #5D5D5D;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding:5px;}
+#header a:hover, a.on{
+  color: #368AFF;
+  background-color: #ffffff;}
+  .pictures{
+
+              font-size: 1.0em;
+              font-family: 'Nanum Square','나눔 고딕','Nanum Gothic',sans-serif;
+              color: #1266FF;
+              padding: 10px;
+              text-align: center;
+
+              }
+
+ img.align-center{
+     display:block;
+     margin: 0px auto;
+     width:500x;
+     height:522px;
+ }
+ #sns_link{
+     font-size: 90%;
+     border-top: 1px solid #A6A6A6;
+     padding:10px;
+ }
+ #page{
+       display:grid;
+       grid-template-columns: 55px 1fr;
+     }
+ .entry{
+                width:400px;
+                float: left;
+                margin: 30px;
+                height: 198px;
+            }
+            figure{
+                display: block;
+                width: 300px;
+                height: 200px;
+                padding: 9px;
+                margin: 50px;
+                text-align: center;
+            }
+            figure img{
+                width: 300px;
+                height: 200px;
+            }
+            figcaption{
+                padding-left: 20px;
+            }
+           .board-pager{
+                float:right;
+                font-size: 150%;
+                width: 300px;
+                padding: 65px;
+
+            }
+      #list{
+        padding: 0px 16px 78px 163px;
+      }
+      img{
+        padding:20px;
+      }
+            .info {
+             font-size: 1.0em;
+            font-family: 'Nanum Square','나눔 고딕','Nanum Gothic',sans-serif;
+            color: #666;
+            padding: 10px;
+            text-align: center;}
+            .cs_nperformance .detail_info .img_box .thumb img{
+                display: block;
+            }
+            .comment{
+                margin: 0px;
+            }
+            #boxbox{
+                margin: 20px auto 20px auto;
+            }
