@@ -2,59 +2,7 @@
 <meta charset="UTF-8" />
 <html>
 <head> <title>앨범소개</title>
-    <style type="text/css">
-
-        .header{
-            font-size: 160%;
-             font-family: Arial, Verdana, sans-serif;
-             letter-spacing: 0.2em;
-             background-color: #ffffff;
-             text-align: center;
-             margin: 0px auto 0px auto;
-             padding: 20px;
-             position: static;
-             background-color: #ffffff;}
-        ul{
-           width: 1400px;
-           padding: 20px;
-           margin: 3px auto 3px auto;
-           border-top: 2px solid #000;
-           border-bottom: 1px solid #000;
-           }
-         li{
-             display: inline;
-             margin: 10px 30px;}
-        a{
-          color: #000000;
-          text-transform: uppercase;
-          text-decoration: none;
-          padding: 6px 18px 5px 18px;}
-        a:hover, a.on{
-          color: #12EAFF;
-          background-color: #ffffff;}
-        a.light{
-            color: #0100FF;
-        }
-        body{
-             font-size: 1.0em;
-            font-family: 'Nanum Square','나눔 고딕','Nanum Gothic',sans-serif;
-            color: #666;
-            padding: 10px;
-            text-align: center;
-        }
-
-        .thmb .bdr{
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            border: 1px solid #000;
-
-        }
-
-
-    </style>
+      <link rel="stylesheet" href="style.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160030029-1"></script>
     <script>
@@ -65,38 +13,22 @@
       gtag('config', 'UA-160030029-1');
     </script>
 
-
 </head>
 <body>
-     <div class="header">
-        <img src="images/logologo.png" alt="logo" width="600" />
-        <div class="nav">
+  <h1>Ed Sheeran</h1>
+  <div id="header">
          <ul>
-            <li><a href= "main1.html" class="on">메인화면</a></li>
-            <li><a href="profile(1).html">소개</a></li>
-            <li><a href="distography.html">앨범</a></li>
-            <li><a href="gallery.html">사진</a></li>
-            <li><a href="korea.html">내한</a></li>
-
+            <li><a href= "main1.html" class="on">HOME</a></li>
+            <li><a href="profile(1).html">PROFILE</a></li>
+            <li><a href="distography.html">DISCOGRAPHY</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="korea.html">KOREA</a></li>
         </ul>
-    </div>
-    </div>
-    <div class="page">
-<div id="container">
-    <!-- Content -->
-    <div class="content inner">
-        <h2 class="hidden">DISCOGRAPHY</h2>
-        <div id="discogrp_box">
-            <div class="discogrp vtc_wrap">
-                <div class="left">
-                    <!-- 앨범 커버 사이즈 -->
-                    <div class="cover">
-                        <img src="images/albumx.jpg" alt="album" width="700"
-                             height="700 "/>
-                    </div>
-                    <p class="release"></p>
-                    <h3 class="title"></h3>
-                    <table class="info mt25" align="center">
+ </div>
+    <div id="album">
+            <img src="images/album2.jpg" alt="album" width="400" height="400" />
+
+                    <table align="center">
                         <colgroup>
                             <col style="width: 100px;">
                             <col>
@@ -112,10 +44,9 @@
                             </tr>
                         </tbody>
                     </table>
-                </div>
-                <!-- END left -->
-                <div class="right">
-                    <h4 class="sec_tit">트랙리스트</h4>
+
+                   <div>
+                    <h2>TRACKLIST</h2>
                     <div>
                               1. One
                     <br />
@@ -157,54 +88,43 @@
                             17. All of the Stars
                     <br />
                     </div>
-                    <!-- END Right -->
-                    <!-- END Discography Detail -->
-                    <h3 class="KOR mid_tit">
-                        <span class ="view">앨범 보기</span>
+                  </div>
+                  </div>
+                    <h3>
+                        <span class ="view">ALBUM</span>
                     </h3>
-                    <div class="brd_list">
-                        <ul class="album_list">
+                    <div>
+                        <ul id="list">
                             <li>
                                 <a href="album1.html">
-                                <span class="cover">
+                                <span>
                                     <img src="images/album1.jpg" alt="album" width="200" height="200" />
-                                    <span class="bdr"></span>
                                     </span>
                                 </a>
                             </li>
                             <li>
                                 <a href="album2.html">
-                                    <span class="cover">
+                                    <span>
                                         <img src="images/album2.jpg" alt="album" width="200" height="200"/>
-                                    <span class="bdr"></span>
                                     </span>
                                 </a>
                             </li>
                             <li>
                                 <a href="album3.html">
-                                <span class="cover">
+                                <span>
                                     <img src="images/album3.jpg" alt="album" width="200" height="200" />
-                                    <span class="bdr"></span>
                                     </span>
                                 </a>
                             </li>
                            <li>
                                 <a href="distography.html">
-                                <span class="cover">
+                                <span>
                                    <img src="images/number6.png" alt="new release" width="350" height="200" />
-                                    <span class="bdr"></span>
                                     </span>
                                 </a>
                             </li>
                         </ul>
                     </div>
 
-
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-    </div>
 </body>
 </html>
